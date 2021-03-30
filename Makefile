@@ -1,7 +1,7 @@
 PREFIX ?= /usr/local
 MANDIR ?= $(PREFIX)/share/man/man1/
 BUILDTYPE ?= Release
-SHELL = /bin/bash
+SHELL = /usr/bin/env bash
 
 # inherit from env if set
 CC := $(CC)
